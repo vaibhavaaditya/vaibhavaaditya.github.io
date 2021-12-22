@@ -1,0 +1,41 @@
+body{
+    font-family: 'Manrope','Bakbak One','Times New Roman', Helvetica, sans-serif;
+    background-color: white;
+    background-color: ;
+}
+
+button{
+    border:3px solid black;
+    padding: 10px;
+    margin-right: 10px;
+    font-family: 'Nixie One','Times New Roman', Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    background-color: skyblue;
+    
+}
+
+button:hover{
+    background-color: blue;
+    color: white;
+}
+h1, h2{
+    font-family: 'Nixie One','Times New Roman', Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+nav{
+    text-align: right;
+}
+
+
+.intro{
+    font-family: 'Manrope','Bakbak One','Times New Roman', Helvetica, sans-serif;
+    font-size:40px;
+    padding:20px;
+}
+
+
+
+
