@@ -1,14 +1,13 @@
 body{
     font-family: 'Manrope','Bakbak One','Times New Roman', Helvetica, sans-serif;
     background-color: white;
-    background-color: ;
 }
 
 button{
     border:3px solid black;
     padding: 10px;
     margin-right: 10px;
-    font-family: 'Nixie One','Times New Roman', Helvetica, sans-serif;
+    font-family: 'Manrope','Nixie One','Times New Roman', Helvetica, sans-serif;
     font-weight: bold;
     font-size: 18px;
     background-color: skyblue;
@@ -20,7 +19,7 @@ button:hover{
     color: white;
 }
 h1, h2{
-    font-family: 'Nixie One','Times New Roman', Helvetica, sans-serif;
+    font-family: 'Manrope','Nixie One','Times New Roman', Helvetica, sans-serif;
     font-size: 20px;
     text-align: center;
 }
@@ -34,8 +33,16 @@ nav{
     font-family: 'Manrope','Bakbak One','Times New Roman', Helvetica, sans-serif;
     font-size:40px;
     padding:20px;
+    
 }
 
 
+
+#about, #projects, #exp, #voluntary, #contact, .intro{
+    margin:20px;
+    border: 3px solid black;
+    border-radius: 15px;
+    padding:10px
+}
 
 
