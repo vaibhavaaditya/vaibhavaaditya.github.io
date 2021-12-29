@@ -1,6 +1,6 @@
 body{
     font-family: 'Manrope','Bakbak One','Times New Roman', Helvetica, sans-serif;
-    background-color: white;
+    background-color: skyblue;
 }
 
 button{
@@ -17,6 +17,8 @@ button{
 button:hover{
     background-color: blue;
     color: white;
+    box-shadow: 0px 0px 15px skyblue;
+    
 }
 h1, h2{
     font-family: 'Manrope','Nixie One','Times New Roman', Helvetica, sans-serif;
@@ -29,20 +31,22 @@ nav{
 }
 
 
-.intro{
+#intro{
     font-family: 'Manrope','Bakbak One','Times New Roman', Helvetica, sans-serif;
     font-size:40px;
     padding:20px;
-    
+
 }
 
 
 
-#about, #projects, #exp, #voluntary, #contact, .intro{
+body div{
     margin:20px;
     border: 3px solid black;
     border-radius: 15px;
-    padding:10px
+    padding:10px;
+    background-color: white;
+    
 }
 
 
