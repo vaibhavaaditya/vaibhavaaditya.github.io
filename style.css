@@ -1,52 +1,142 @@
+*{
+    margin:0px;
+    padding:0px;
+    scroll-padding-top: 100px;
+}
+
+
+
 body{
     font-family: 'Manrope','Bakbak One','Times New Roman', Helvetica, sans-serif;
-    background-color: skyblue;
-}
-
-button{
-    border:3px solid black;
-    padding: 10px;
-    margin-right: 10px;
-    font-family: 'Manrope','Nixie One','Times New Roman', Helvetica, sans-serif;
-    font-weight: bold;
-    font-size: 18px;
-    background-color: skyblue;
-    
-}
-
-button:hover{
-    background-color: blue;
-    color: white;
-    box-shadow: 0px 0px 15px skyblue;
-    
-}
-h1, h2{
-    font-family: 'Manrope','Nixie One','Times New Roman', Helvetica, sans-serif;
-    font-size: 20px;
-    text-align: center;
-}
-
-nav{
-    text-align: right;
-}
-
-
-#intro{
-    font-family: 'Manrope','Bakbak One','Times New Roman', Helvetica, sans-serif;
-    font-size:40px;
-    padding:20px;
-
-}
-
-
-
-body div{
-    margin:20px;
-    border: 3px solid black;
-    border-radius: 15px;
-    padding:10px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F1FFFF;
     background-color: white;
     
 }
+body div{
+    width:70%;    
+}
+a{
+    text-decoration: none;
+    color:inherit;
+}
+#navbar{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    position:sticky;
+    top:0;
+    flex-wrap: wrap;
+    background-color: #F1FFFF;
+    border-bottom:0.5px solid #5BFFEB;
+    z-index: 5;
+    padding:10px;
+    align-items: center;
+    
+}
+#navbar div{
+    width:fit-content;
+}
+.navleft{
+    margin-left: 15px;
+    display: flex;
+}
+
+#contact{
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    padding:10px;
+    margin-right: 20px;
+}
+.fa{
+    font-size: 30px;
+    opacity: 0.8;
+}
+.fa:hover{
+    opacity:1;
+}
+button{
+    background-color: #5BFFEB;
+    border-radius: 20px;
+    padding: 10px;
+    border: 0px;
+    margin-right: 10px;
+    font-family: 'Manrope','Nixie One','Times New Roman', Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 18px; 
+}
+
+button:hover{
+    background-color: #5BFFEB;
+    color: black;
+    box-shadow: 0px 0px 8.5px #5BFFEB; 
+    
+}
+
+h1, h2{
+    font-family: 'Manrope','Nixie One','Times New Roman', Helvetica, sans-serif;
+    font-size: 25px;
+    text-align: center;
+}
+
+#about,#volunteer,#exp,#projects{
+    padding:50px;
+    margin-top:25px;
+}
+#intro{
+    font-family: 'Manrope','Bakbak One','Times New Roman', Helvetica, sans-serif;
+    font-size:40px;
+    margin-top:200px;
+    margin-bottom: 175px;
+    scroll-margin-top: 200px;
+    padding-bottom: 100px;
+    text-align: center;
+}
+
+#about ul{
+    margin-left:30px;
+}
+#projects ul{
+    margin-top: 15px;
+    list-style: none;
+    display: flex;
+    gap:15px;
+    justify-content: center;
+}
+#footer{
+    display:flex;
+    justify-content: center;
+    background-color: #5BFFEB;
+    color: black;
+    width:100%;
+    padding:15px;
+    
+}
+
+#exp{
+    display: flex;
+    flex-direction: column;
+    gap:15px;
+}
+#volunteer{
+    display: flex;
+    flex-direction: column;
+    gap:15px;
+}
 
 
+@media only screen and (max-width: 768px) {
+    
+
+    #navbar {
+      justify-content: center; 
+   }
+   #navbar .navleft{
+    justify-content: center;
+    align-items: center;    
+   }
+}
+  
