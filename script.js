@@ -8,8 +8,7 @@ document.addEventListener('DOMContentLoaded', () => {
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Bakbak+One&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Nixie+One&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="icon" type="image/x-icon" href="https://img.icons8.com/ultraviolet/40/000000/source-code.png">
+    <link rel="icon" href="/favicon.svg" />
     <link href="style.css" rel="stylesheet">`;
     document.head.insertAdjacentHTML('beforebegin', metaTags);
 });
@@ -18,13 +17,14 @@ document.addEventListener('DOMContentLoaded', () => {
 document.addEventListener('DOMContentLoaded', () => {
     const navbarHTML = `
         <div id="navbar">
-            <div id="contact">
-                <a href="https://www.linkedin.com/in/vaibhavaaditya" target="_blank" class="fa fa-linkedin"></a>
-                <a href="https://github.com/vaibhavaaditya" target="_blank" class="fa fa-github"></a>
-                <a href="mailto:vaibhavaaditya@gmail.com" target="_blank" class="fa fa-envelope"></a>  
-            </div>
             <div class="nav-ul">
-                <button><a href="./index.html">home</a></button>
+                <button id="home_btn">
+                    <a href="./index.html">
+                        <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="16" height="16" viewBox="0 0 16 16">
+                            <path d="M8,1L1,6v9h5v-4c0-1.105,0.895-2,2-2s2,0.895,2,2v4h5V6L8,1z"></path>
+                        </svg>
+                    </a>
+                </button>
                 <button><a href="./about.html">about</a></button>
                 <button><a href="./work.html">work</a></button>
                 <button><a href="./writings.html">writings</a></button>
