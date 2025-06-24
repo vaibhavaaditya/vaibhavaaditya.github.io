@@ -10,7 +10,10 @@
     --nav_bar_color: #fcf3a0;
     --nav_bar_color: #fff8e5;
     --nav_brdr_color: #ffde25;
-    --nav_brdr_color: #fff8e5;
+    --nav_brdr_color: #fff8e5;    
+    /* --nav_bar_color: #faf9f5;
+    --nav_brdr_color: #faf9f5;
+    --bg_body_color: #faf9f5; */
 }
 
 body {
