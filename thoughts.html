@@ -1,22 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="icon" href="/favicon.svg" />
-    <style type="text/css">
-        .hidden {display:none;}
-    </style>
-    <script type="text/javascript">
-        document.documentElement.classList.add('hidden');
-        window.addEventListener('load', function() {
-          document.documentElement.classList.remove('hidden');
-        });
-    </script>
-    <script src="script.js" defer></script>
-<body>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <title>Vaibhava Aditya</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bakbak+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nixie+One&display=swap" rel="stylesheet">
+    <link rel="icon" href="assets/favicon.svg" />
+    <script src="js/theme-loader.js"></script>
+    <link href="css/style.css" rel="stylesheet">
+    <script src="js/script.js" type="module" defer></script>
+<body class="no-transition">
+    <div id="navbar">
+        <div class="nav-ul">
+            <button id="home_btn">
+                <a href="./index.html">
+                    <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="16" height="16" viewBox="0 0 16 16">
+                        <path d="M8,1L1,6v9h5v-4c0-1.105,0.895-2,2-2s2,0.895,2,2v4h5V6L8,1z"></path>
+                    </svg>
+                </a>
+            </button>
+            <button><a href="./about.html">about</a></button>
+            <button><a href="./work.html">work</a></button>
+            <button><a href="./writings.html">writings</a></button>
+            <label class="theme-switch">
+                <input type="checkbox" id="theme-toggle-checkbox">
+                <span class="slider">
+                    <span class="icon sun"></span><span class="icon moon"></span>
+                </span>
+            </label>
+        </div>
+    </div>
     <div id="writings" class="primary_container">
-        <h2>Thoughts</h2>
+        <h2 class="section_heading">Thoughts</h2>
         <ul>          
-            <li><span class="blog_date">Oct 25</span><a class="blog_link" href="./why_write.html">Why Write?</a></li>
+            <li><span class="blog_date">Oct 25</span><a class="blog_link" href="./posts/why_write.html">Why Write?</a></li>
         </ul>
     </div>
 </body>
